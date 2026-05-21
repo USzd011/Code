@@ -1,0 +1,44 @@
+{
+  "category": "AI风口趋势",
+  "description": "AI行业重大事件、技术突破、市场变化",
+  "topics": [
+    {
+      "id": "topic_001",
+      "direction": "Sora之父离职创业",
+      "title": "Sora之父都创业了！普通人靠AI赚米真不难",
+      "tags": ["AI风口", "普通人副业", "降本增效"],
+      "opening": "炸裂的大瓜终于来了，sora之父提出离职了！",
+      "content": "Sora之父都离职创业了！你还觉得这波新AI风口跟普通人没关系？是不是天天刷到AI造富神话，自己只能当吃瓜群众，想进场又怕没技术没资金，摸不到半点头绪。",
+      "heat_index": 95,
+      "recommend_index": 90,
+      "platforms": ["抖音", "快手", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_007",
+      "direction": "ClaudeCode源码",
+      "title": "ClaudeCode源码泄露！别再熬了 编程效率直接翻十倍",
+      "tags": ["AI编程", "源码泄露"],
+      "opening": "AI界又要变天了，这下谁也无法幸免。",
+      "content": "AI编程效率格局真的要变天了，ClaudeCode源码泄露，普通人也能零成本上手编程。",
+      "heat_index": 92,
+      "recommend_index": 88,
+      "platforms": ["抖音", "B站"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_019",
+      "direction": "国产AI大模型崛起",
+      "title": "中国AI大模型连续五周反超，国产科技彻底崛起",
+      "tags": ["国产AI", "科技"],
+      "opening": "打破垄断！国内大模型调用量持续领跑",
+      "content": "不用依赖海外工具，国产AI工具越来越好用，普通人闭眼就能用。",
+      "heat_index": 88,
+      "recommend_index": 85,
+      "platforms": ["抖音", "快手", "B站"],
+      "content_type": "短视频"
+    }
+  ],
+  "total": 3,
+  "update_time": "2026-04-28"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "rules": {
+    "command": {
+      "prefix": "（指令）",
+      "responseTime": "< 1分钟",
+      "action": "立即执行"
+    },
+    "broadcast": {
+      "prefix": "@_all",
+      "responseTime": "< 5分钟",
+      "action": "所有成员响应"
+    },
+    "mention": {
+      "prefix": "@特定成员",
+      "responseTime": "< 10分钟",
+      "action": "该成员优先响应"
+    }
+  },
+  "escalation": {
+    "timeout": "10分钟",
+    "escalateTo": "Orchestrator"
+  }
+}

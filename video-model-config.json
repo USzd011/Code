@@ -1,0 +1,28 @@
+{
+  "models": {
+    "providers": {
+      "glmcode-video": {
+        "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+        "apiKey": "ce904e8126ae4960a5f21ea9ff9c5062.SNnz6076JYYHBoID",
+        "api": "openai-chat",
+        "models": [
+          {
+            "id": "cogvideox-3",
+            "name": "CogVideoX-3",
+            "input": ["text", "image"],
+            "api": "openai-chat",
+            "capabilities": ["video-generation"]
+          },
+          {
+            "id": "cogvideox-3-5b",
+            "name": "CogVideoX-3-5B",
+            "input": ["text", "image"],
+            "api": "openai-chat",
+            "capabilities": ["video-generation"]
+          }
+        ]
+      }
+    },
+    "mode": "merge"
+  }
+}

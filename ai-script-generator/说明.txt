@@ -1,0 +1,166 @@
+
+
+创建 AI 脚本生成器核心模块 (ai-script-generator/index.js)
+
+创建脚本模板库 (templates/short-video.js 和 templates/comic.js)
+
+创建框架库和热点分析模块
+
+创建模块配置文件和使用文档
+
+Thought
+
+index.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\index.js
+
++ 255 - 0
+
+Thought
+
+short-video.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\templates\short-video.js
+
++ 449 - 0
+
+Thought
+
+comic.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\templates\comic.js
+
++ 479 - 0
+
+Thought
+
+index.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\framework\index.js
+
++ 259 - 0
+
+Thought
+
+index.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\hot-topics\index.js
+
++ 185 - 0
+
+Thought
+
+package.json
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\package.json
+
++ 27 - 0
+
+Thought
+
+demo.js
+f:\Users\Administrator\AppData\Local\Programs\CodeBuddy CN\resources\app\extensions\genie\integration-mcp\ai-script-generator\demo.js
+
++ 62 - 0
+
+Thought
+
+4/4 已完成
+
+创建 AI 脚本生成器核心模块 (ai-script-generator/index.js)
+
+创建脚本模板库 (templates/short-video.js 和 templates/comic.js)
+
+创建框架库和热点分析模块
+
+创建模块配置文件和使用文档
+
+已成功为您创建了一个完整的 AI 脚本生成模块 ！
+
+## 📁 创建的文件结构
+```
+ai-script-generator/
+├── index.js                    # 主
+模块入口
+├── package.json               # 模块
+配置
+├── demo.js                    # 演示
+脚本
+├── templates/
+│   ├── short-video.js         # 短视
+频脚本模板
+│   └── comic.js               # 漫剧
+脚本模板
+├── framework/
+│   └── index.js               # 脚本
+框架库
+└── hot-topics/
+    └── index.js               # 热点
+    话题分析器
+```
+## 🎬 短视频脚本类型 (8种)
+类型 特点 适用场景 🎯 悬念反转型 开头抛出反常观点，结尾反转 知识科普 ⚡ 对比冲击型 before/after对比展示价值 产品测评 📊 干货效率型 直接输出实用技巧 教程教学 🔥 热点借势型 结合热点话题 新闻解读 💔 故事共情型 情感共鸣故事 品牌故事 🎓 专家权威型 专业身份讲解 深度分析 ❓ 好奇缺口型 制造知识缺口 揭秘解密 ✨ 演示展示型 产品实操演示 带货推广
+
+## 📖 漫剧脚本类型 (8种)
+类型 特点 适用题材 💕 浪漫爱情 甜蜜温馨故事 现代/校园/古风 ⚔️ 冒险奇幻 刺激冒险旅程 奇幻/科幻/异世界 😆 轻松搞笑 幽默日常故事 日常/校园/职场 🔍 悬疑推理 扑朔迷离案件 侦探/惊悚 💥 热血动作 激烈战斗场面 武侠/都市/科幻 ☀️ 治愈日常 温馨日常故事 日常/治愈 🗡️ 史诗奇幻 宏大世界观 奇幻/史诗 🧠 心理悬疑 深入内心世界 心理/悬疑
+
+## 🚀 使用示例
+```
+const AIScriptGenerator = require('./
+ai-script-generator');
+
+// 创建生成器实例
+const generator = new 
+AIScriptGenerator();
+
+// 生成短视频脚本 (5个角度)
+const videoResult = await generator.
+generateShortVideoScript('AI绘画', {
+  targetPlatform: 'douyin',
+  duration: 60,
+  angles: 5,
+  includeHotTopics: true
+});
+
+// 生成漫剧脚本 (3集)
+const comicResult = await generator.
+generateComicScript('AI与人类的故事', 
+{
+  episodes: 3,
+  style: 'modern',
+  targetPlatform: 'webtoon'
+});
+
+// 主题分析
+const analysis = await generator.
+analyzeTopic('AI绘画');
+```
+## 📋 运行演示
+```
+cd integration-mcp/
+ai-script-generator
+node demo.js
+```
+模块已完整创建，支持多角度脚本生成，并且包含热点话题分
+
+ai-script-generator/
+├── index.js                    # 主
+入口文件
+├── package.json               # 配置
+文件
+├── demo.js                    # 演示
+脚本
+├── templates/
+│   ├── short-video.js         # 短视
+频脚本模板
+│   └── comic.js               # 漫剧
+脚本模板
+├── framework/
+│   └── index.js               # 脚本
+框架库
+└── hot-topics/
+    └── index.js               # 热点
+    话题分析器
+```
+使用方法：
+
+```
+const AIScriptGenerator = require('./
+integration-mcp/
+ai-script-generator');
+const generator = new 
+AIScriptGenerator();

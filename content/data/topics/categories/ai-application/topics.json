@@ -1,0 +1,44 @@
+{
+  "category": "AI技术应用",
+  "description": "AI技术在各领域的应用案例",
+  "topics": [
+    {
+      "id": "topic_022",
+      "direction": "全双工语音大模型",
+      "title": "字节全新语音大模型上线，实时对话堪比真人",
+      "tags": ["黑科技AI"],
+      "opening": "纯干货！字节重磅发布全双工语音模型",
+      "content": "语速自然、语气流畅，直播、配音、解说全都能直接用。",
+      "heat_index": 88,
+      "recommend_index": 85,
+      "platforms": ["抖音", "B站"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_023",
+      "direction": "AI广告精准营销",
+      "title": "AI精准拓客已成常态，小众行业也在悄悄内卷",
+      "tags": ["商业思维"],
+      "opening": "别再盲目发广告了，现在都用AI大数据精准筛选人群",
+      "content": "定向推送、精准获客，获客成本直接减半。",
+      "heat_index": 82,
+      "recommend_index": 80,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_025",
+      "direction": "AI绘画利弊分析",
+      "title": "AI画图一分钟，画师手绘一个月，艺术该何去何从",
+      "tags": ["AI绘画"],
+      "opening": "量产AI画作泛滥，手工匠人慢慢被忽视",
+      "content": "速度取代质感，流量压倒匠心，值得所有人反思。",
+      "heat_index": 85,
+      "recommend_index": 82,
+      "platforms": ["抖音", "B站"],
+      "content_type": "短视频"
+    }
+  ],
+  "total": 3,
+  "update_time": "2026-04-28"
+}

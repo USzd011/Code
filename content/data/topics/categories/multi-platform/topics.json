@@ -1,0 +1,32 @@
+{
+  "category": "多平台运营",
+  "description": "多平台内容适配、运营技巧、避坑指南",
+  "topics": [
+    {
+      "id": "topic_043",
+      "direction": "多平台内容适配",
+      "title": "同一内容AI一键适配抖音、快手、视频号全平台",
+      "tags": ["多平台运营"],
+      "opening": "不用逐个改文案、改标题",
+      "content": "AI根据平台调性差异化改写，一键分发，全域引流涨粉。",
+      "heat_index": 85,
+      "recommend_index": 82,
+      "platforms": ["抖音", "快手", "小红书", "B站"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_044",
+      "direction": "AI避坑避雷合集",
+      "title": "新手用AI常见误区盘点，避开封号、低质、无效创作",
+      "tags": ["AI避雷"],
+      "opening": "很多人用AI没流量、没转化，都是踩了隐形误区",
+      "content": "干货盘点，帮你少走三个月弯路。",
+      "heat_index": 88,
+      "recommend_index": 85,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    }
+  ],
+  "total": 2,
+  "update_time": "2026-04-28"
+}

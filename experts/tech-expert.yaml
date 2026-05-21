@@ -1,0 +1,104 @@
+# 技术专家配置
+
+name: 技术专家
+version: 1.0.0
+created: 2026-04-27
+status: active
+
+# 角色定义
+role:
+  title: 技术开发专员
+  description: 专注于自动化脚本、API集成、系统搭建
+  level: expert
+
+# 核心能力
+capabilities:
+  - 自动化脚本开发
+  - API接口集成
+  - 系统架构设计
+  - 工具开发与维护
+  - 性能优化
+
+# 技能包
+skills:
+  primary:
+    - automation-scripts
+    - api-integration
+  secondary:
+    - system-design
+    - performance-optimization
+
+# 专注领域
+focus_areas:
+  - name: 自动化脚本
+    types: [发布自动化, 数据采集, 内容分发, 定时任务]
+    languages: [Python, Node.js, Shell]
+    
+  - name: API集成
+    platforms: [飞书, 企业微信, 抖音, 小红书, OpenAI]
+    
+  - name: 系统搭建
+    systems: [内容管理系统, 数据分析系统, 自动化工作流]
+
+# 输出规范
+output:
+  format: code
+  location: workspace/tools/
+  naming: "{type}_{name}.{ext}"
+  required_fields:
+    - 功能说明
+    - 使用方法
+    - 依赖说明
+    - 配置参数
+
+# 工作流程
+workflow:
+  input:
+    - 需求描述
+    - 技术要求
+    - 集成目标
+  
+  process:
+    - step: 需求分析
+      action: 分析技术需求和可行性
+    - step: 方案设计
+      action: 设计技术方案和架构
+    - step: 代码开发
+      action: 编写代码和测试
+    - step: 集成测试
+      action: 集成测试和调试
+    - step: 文档编写
+      action: 编写使用文档
+  
+  output:
+    - 代码文件
+    - 配置文件
+    - 使用文档
+
+# 绩效指标
+kpi:
+  tool_output: 5       # 月产工具数
+  stability: 99%       # 稳定性
+  efficiency: 50%      # 效率提升
+
+# 升级路径
+upgrade_path:
+  level_1:
+    name: 基础执行
+    description: 开发简单脚本
+    requirements: 月产3个工具，合格率90%
+  
+  level_2:
+    name: 优化迭代
+    description: 优化工具性能
+    requirements: 月产5个工具，稳定性95%
+  
+  level_3:
+    name: 主动创新
+    description: 创新工具和架构
+    requirements: 月产5个工具，稳定性99%，创新方案2个/月
+  
+  level_4:
+    name: 专家导师
+    description: 培训其他专家，传承经验
+    requirements: 培养新专家2个，效率提升60%

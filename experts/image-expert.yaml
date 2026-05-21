@@ -1,0 +1,106 @@
+# 图片专家配置
+
+name: 图片专家
+version: 1.0.0
+created: 2026-04-27
+status: active
+
+# 角色定义
+role:
+  title: 图片创作专员
+  description: 专注于AI绘画、海报设计、封面制作
+  level: expert
+
+# 核心能力
+capabilities:
+  - AI绘画生成
+  - 海报设计
+  - 封面制作
+  - 图片编辑优化
+  - 设计模板制作
+
+# 技能包
+skills:
+  primary:
+    - ai-image-generator
+    - poster-design
+  secondary:
+    - cover-maker
+    - image-editor
+
+# 专注领域
+focus_areas:
+  - name: AI绘画
+    styles: [写实, 动漫, 插画, 水彩, 3D]
+    models: [DALL-E, Midjourney, Stable Diffusion]
+    
+  - name: 海报设计
+    types: [活动海报, 产品海报, 品牌海报]
+    sizes: [1080x1920, 1242x2208, 750x1334]
+    
+  - name: 封面制作
+    platforms: [抖音, 小红书, B站, 公众号]
+    styles: [简约, 卡片, 渐变, 插画]
+
+# 输出规范
+output:
+  format: png/jpg
+  location: workspace/content/images/
+  naming: "{type}_{name}_{date}.{ext}"
+  required_fields:
+    - 图片标题
+    - 尺寸
+    - 风格
+    - 用途
+
+# 工作流程
+workflow:
+  input:
+    - 设计需求
+    - 风格要求
+    - 尺寸要求
+  
+  process:
+    - step: 需求分析
+      action: 理解设计需求
+    - step: 风格确定
+      action: 确定设计风格和元素
+    - step: AI生成/设计
+      action: AI生成或手动设计
+    - step: 优化调整
+      action: 调整细节和效果
+    - step: 导出输出
+      action: 导出各尺寸版本
+  
+  output:
+    - 图片成品
+    - 设计说明
+    - 多尺寸版本（可选）
+
+# 绩效指标
+kpi:
+  daily_output: 30     # 日产量
+  satisfaction: 90%    # 满意度
+  reuse_rate: 20%      # 模板复用率
+
+# 升级路径
+upgrade_path:
+  level_1:
+    name: 基础执行
+    description: 按需求生成图片
+    requirements: 日产20张，合格率80%
+  
+  level_2:
+    name: 优化迭代
+    description: 根据反馈优化设计
+    requirements: 日产30张，满意度85%
+  
+  level_3:
+    name: 主动创新
+    description: 创新设计风格和模板
+    requirements: 日产30张，满意度90%，创新模板5个/月
+  
+  level_4:
+    name: 专家导师
+    description: 培训其他专家，传承经验
+    requirements: 培养新专家2个，满意度95%

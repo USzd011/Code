@@ -1,0 +1,44 @@
+[
+  {
+    "id": "20260501031644232393",
+    "video_path": "/tmp/test_video.mp4",
+    "title": "定时测试视频",
+    "description": "",
+    "tags": [],
+    "platforms": [
+      "douyin"
+    ],
+    "scheduled_time": "2026-05-01T03:17:00",
+    "repeat": null,
+    "status": "cancelled",
+    "created_at": "2026-05-01T03:16:44.232451"
+  },
+  {
+    "id": "20260501031654562647",
+    "video_path": "/tmp/test_video.mp4",
+    "title": "定时测试视频",
+    "description": "",
+    "tags": [],
+    "platforms": [
+      "douyin"
+    ],
+    "scheduled_time": "2026-05-01T03:17:00",
+    "repeat": null,
+    "status": "cancelled",
+    "created_at": "2026-05-01T03:16:54.562684"
+  },
+  {
+    "id": "20260501031654981940",
+    "video_path": "/tmp/test_video.mp4",
+    "title": "集成测试定时视频",
+    "description": "",
+    "tags": [],
+    "platforms": [
+      "douyin"
+    ],
+    "scheduled_time": "2026-05-01T04:16:00",
+    "repeat": null,
+    "status": "cancelled",
+    "created_at": "2026-05-01T03:16:54.981966"
+  }
+]

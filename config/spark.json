@@ -1,0 +1,7 @@
+{
+  "spark": {
+    "api_key": "[XUNFEI_RPA_KEY]",
+    "domain": "generalv3",
+    "app_id": "your_app_id"
+  }
+}

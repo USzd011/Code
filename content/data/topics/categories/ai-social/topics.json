@@ -1,0 +1,44 @@
+{
+  "category": "AI社会话题",
+  "description": "AI对社会的影响、伦理讨论、社会现象",
+  "topics": [
+    {
+      "id": "topic_024",
+      "direction": "当代人AI依赖症",
+      "title": "越来越多人AI成瘾，过度依赖工具到底是好是坏",
+      "tags": ["人间清醒"],
+      "opening": "离不开AI、害怕更新、拒绝改变",
+      "content": "看似在用工具，实则早已被AI绑架，这才是当代成年人的隐形内耗。",
+      "heat_index": 80,
+      "recommend_index": 78,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_030",
+      "direction": "中老年AI使用现状",
+      "title": "老人和AI子女聊天度日，科技背后藏着多少孤独",
+      "tags": ["情感AI"],
+      "opening": "一年又一年，亲人不在身边，只能靠着AI对话缓解思念",
+      "content": "科技很发达，却治愈不了人心的孤单。",
+      "heat_index": 85,
+      "recommend_index": 82,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_013",
+      "direction": "暗黑动漫整治",
+      "title": "央视调查"暗黑动漫"侵蚀青少年",
+      "tags": ["社会热点"],
+      "opening": "AI生成"暗黑动漫"有多野？",
+      "content": "不良AI内容泛滥，正在侵蚀青少年身心健康，需要严格监管。",
+      "heat_index": 88,
+      "recommend_index": 85,
+      "platforms": ["抖音", "B站"],
+      "content_type": "短视频"
+    }
+  ],
+  "total": 3,
+  "update_time": "2026-04-28"
+}

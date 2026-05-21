@@ -1,0 +1,143 @@
+{
+  "skills": {
+    "groups": {
+      "agent-collaboration": {
+        "description": "智能体协作组",
+        "skills": [
+          "agent-team-orchestration",
+          "autonomous-agent-harness",
+          "autonomous-loops",
+          "continuous-agent-loop",
+          "agent-sort"
+        ],
+        "autoLoad": true
+      },
+      "learning-evolution": {
+        "description": "学习进化组",
+        "skills": [
+          "continuous-learning-v2",
+          "autoresearch",
+          "deep-research",
+          "research-ops"
+        ],
+        "autoLoad": true
+      },
+      "browser-automation": {
+        "description": "浏览器自动化组",
+        "skills": [
+          "browser",
+          "browser-use",
+          "agent-browser-core",
+          "browserwing"
+        ],
+        "autoLoad": true
+      },
+      "content-creation": {
+        "description": "内容创作组",
+        "skills": [
+          "content-engine",
+          "content-factory",
+          "article-writing"
+        ],
+        "autoLoad": false
+      },
+      "boss-capabilities": {
+        "description": "Boss能力组",
+        "skills": [
+          "boss-skills"
+        ],
+        "autoLoad": true
+      },
+      "tool-integration": {
+        "description": "工具集成组",
+        "skills": [
+          "agent-mail",
+          "baidu-drive",
+          "agent-payment-x402"
+        ],
+        "autoLoad": false
+      },
+      "development": {
+        "description": "开发工具组",
+        "skills": [
+          "agentic-engineering",
+          "ai-first-engineering",
+          "coding-standards",
+          "codebase-onboarding",
+          "api-design",
+          "backend-patterns"
+        ],
+        "autoLoad": false
+      },
+      "data-analysis": {
+        "description": "数据分析组",
+        "skills": [
+          "data-scraper-agent",
+          "data-science",
+          "benchmark"
+        ],
+        "autoLoad": false
+      },
+      "design": {
+        "description": "设计组",
+        "skills": [
+          "design-system",
+          "brand-guidelines",
+          "canvas-design"
+        ],
+        "autoLoad": false
+      },
+      "knowledge-management": {
+        "description": "知识管理组",
+        "skills": [
+          "memory-hygiene",
+          "arxiv-watcher"
+        ],
+        "autoLoad": true
+      }
+    },
+    "priority": {
+      "P0_Critical": {
+        "description": "核心必需技能",
+        "skills": [
+          "agent-team-orchestration",
+          "autonomous-agent-harness",
+          "continuous-learning-v2",
+          "browser",
+          "boss-skills"
+        ],
+        "autoLoad": true
+      },
+      "P1_High": {
+        "description": "高优先级技能",
+        "skills": [
+          "autoresearch",
+          "deep-research",
+          "content-engine",
+          "agent-mail",
+          "baidu-drive"
+        ],
+        "autoLoad": true
+      },
+      "P2_Medium": {
+        "description": "中优先级技能",
+        "skills": [
+          "design-system",
+          "article-writing",
+          "data-scraper-agent",
+          "agentic-engineering"
+        ],
+        "autoLoad": false
+      },
+      "P3_Low": {
+        "description": "低优先级技能",
+        "skills": [
+          "agent-mbti",
+          "browser-cash",
+          "content-repurposer"
+        ],
+        "autoLoad": false
+      }
+    }
+  }
+}

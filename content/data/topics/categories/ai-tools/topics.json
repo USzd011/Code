@@ -1,0 +1,44 @@
+{
+  "category": "AI工具实操",
+  "description": "AI工具使用技巧、效率提升方法、实操案例",
+  "topics": [
+    {
+      "id": "topic_002",
+      "direction": "AI工具实操提效",
+      "title": "实测半个月！零门槛AI提效三步法",
+      "tags": ["AI工具推荐", "内容创作", "知识焦虑"],
+      "opening": "40岁做内容的老炮今天直接跟AI厂商掀桌子了。",
+      "content": "有没有发现AI越更新越难用了，之前一键就能搞定，更新后界面改动、功能阉割，越来越难用。",
+      "heat_index": 88,
+      "recommend_index": 85,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_003",
+      "direction": "自媒体AI增效",
+      "title": "一天更三条！自媒体人用AI效率翻四倍",
+      "tags": ["自媒体干货", "AI提效", "简单变现"],
+      "opening": "全网的热点自动汇总，精准筛选赛道",
+      "content": "一键产出选题、脚本、文案，全程闭环操作，产出内容没有生硬AI味。",
+      "heat_index": 90,
+      "recommend_index": 88,
+      "platforms": ["抖音", "快手", "小红书"],
+      "content_type": "短视频"
+    },
+    {
+      "id": "topic_005",
+      "direction": "职场AI应用",
+      "title": "做方案从三天缩到半天！营销人AI实战分享",
+      "tags": ["营销人", "AI应用", "时间管理"],
+      "opening": "批量生成爆款金句标题、爆款开头、完整正文",
+      "content": "全流程AI辅助，大幅压缩工作耗时。",
+      "heat_index": 85,
+      "recommend_index": 82,
+      "platforms": ["抖音", "小红书"],
+      "content_type": "短视频"
+    }
+  ],
+  "total": 3,
+  "update_time": "2026-04-28"
+}

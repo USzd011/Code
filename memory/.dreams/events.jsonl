@@ -1,0 +1,2 @@
+{"type":"memory.recall.recorded","timestamp":"2026-05-21T12:51:48.488Z","query":"仓库 登录 访问 git docker registry","resultCount":2,"results":[{"path":"memory/2026-05-08.md","startLine":2666,"endLine":2721,"score":1},{"path":"memory/2026-05-08.md","startLine":1944,"endLine":1995,"score":1}]}
+{"type":"memory.recall.recorded","timestamp":"2026-05-21T12:51:48.490Z","query":"仓库 登录问题 认证","resultCount":2,"results":[{"path":"memory/2026-05-06.md","startLine":173,"endLine":216,"score":1},{"path":"memory/2026-05-06.md","startLine":202,"endLine":243,"score":1}]}

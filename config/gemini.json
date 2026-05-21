@@ -1,0 +1,11 @@
+{
+  "google_gemini": {
+    "api_key": "[GEMINI_API_KEY]",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/",
+    "models": [
+      "gemini-1.5-flash",
+      "gemini-1.5-pro",
+      "gemini-2.0-flash"
+    ]
+  }
+}
