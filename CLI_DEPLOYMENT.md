@@ -9,8 +9,8 @@
 - **版本**: 3.1.88.1
 - **状态**: ✅ 已安装并配置
 - **API 配置**:
-  - SecretId: `[TENCENT_SECRET_ID]`
-  - SecretKey: `[TENCENT_SECRET_KEY]`
+  - SecretId: `[REDACTED]`
+  - SecretKey: `[REDACTED]`
   - Region: `ap-guangzhou`
 - **测试结果**: ✅ API 调用成功
 

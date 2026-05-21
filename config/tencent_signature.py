@@ -126,9 +126,12 @@ class TencentSignature:
 
 # 测试
 if __name__ == "__main__":
-    # 腾讯云密钥
-    SECRET_ID = "[TENCENT_SECRET_ID]"
-    SECRET_KEY = "[TENCENT_SECRET_KEY]"
+    # 腾讯云密钥 - 请从环境变量或配置文件读取
+    # export TENCENT_SECRET_ID=xxx
+    # export TENCENT_SECRET_KEY=xxx
+    import os
+    SECRET_ID = os.environ.get("TENCENT_SECRET_ID", "[REDACTED]")
+    SECRET_KEY = os.environ.get("TENCENT_SECRET_KEY", "[REDACTED]")
     
     # 创建签名器
     signer = TencentSignature(SECRET_ID, SECRET_KEY)

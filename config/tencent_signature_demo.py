@@ -7,6 +7,7 @@
 import hashlib
 import hmac
 import time
+import os
 from datetime import datetime, timezone
 
 def generate_signature(secret_id, secret_key, service, action, payload="{}"):
@@ -146,9 +147,10 @@ def generate_signature(secret_id, secret_key, service, action, payload="{}"):
 
 # 测试
 if __name__ == "__main__":
-    # 腾讯云密钥
-    SECRET_ID = "[TENCENT_SECRET_ID]"
-    SECRET_KEY = "[TENCENT_SECRET_KEY]"
+    # 腾讯云密钥 - 请从环境变量读取
+    import os
+    SECRET_ID = os.environ.get("TENCENT_SECRET_ID", "[REDACTED]")
+    SECRET_KEY = os.environ.get("TENCENT_SECRET_KEY", "[REDACTED]")
     
     # 测试 1: DescribeRegions
     print("\n\n")

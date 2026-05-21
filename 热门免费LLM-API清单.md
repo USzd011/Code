@@ -179,7 +179,7 @@ print(response.choices[0].message.content)
 ## ✅ 已配置可用
 
 ### GitHub Models（已测试通过）
-- **Token**: `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`
+- **Token**: `[REDACTED]`
 - **API**: `https://models.inference.ai.azure.com/chat/completions`
 - **可用模型**: GPT-4o, DeepSeek-V3, Llama 4等
 - **状态**: ✅ 立即可用

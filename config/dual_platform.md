@@ -4,7 +4,7 @@
 
 ### DMXAPI（国内优先）
 - 接口地址: `https://www.dmxapi.cn/v1`
-- API Key: `[DMX_API_KEY]`
+- API Key: `[REDACTED]`
 - 免费模型:
   - `qwen3.5-35b-a3b-free`
   - `glm-4.7-flash-free`
@@ -13,7 +13,7 @@
 
 ### OpenRouter（海外兜底）
 - 接口地址: `https://openrouter.ai/api/v1`
-- API Key: `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`
+- API Key: `[REDACTED]`
 - 免费模型:
   - `google/gemini-flash-1.5:free`
   - `meta-llama/llama-3.1-8b-instruct:free`
