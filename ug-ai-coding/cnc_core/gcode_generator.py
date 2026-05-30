@@ -324,6 +324,7 @@ def _gen_deep_drill(prog, tool, wp, params, holes, features):
 
 def _gen_tapping(prog, tool, tool_diam, wp, params, holes, features):
     """攻丝 - G84 右旋攻丝"""
+    tool_diameter = tool_diam
     prog.tool_calls.append(f"T{tool.tool_number} M6 ({tool.type} D={tool.diameter})")
     prog.tool_calls.append(f"M3 S{int(params['spindle_speed'])}")
     prog.tool_calls.append(f"G94 G95")  # 每转进给
